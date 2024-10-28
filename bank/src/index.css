@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  height: 90vh;
+  width: 95vw;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+.nav{
+  width: 20vw;
+  background-color: #d4f5d7;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  justify-content: space-around;
+}
+
+.page{
+  width: 75vw;
+  height: 100vh;
+  background-color: #adc6ab;
+}
